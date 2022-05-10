@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+@import './_reset.css';
+@import './_header.css';
+@import './_mainBlock.css';
+@import './_footer.css';
+
+.container {
+  position: relative;
+
+  width: 100%;
+
+  background-color: #efefef;
+}

@@ -1,0 +1,75 @@
+.create-info{
+  height: 200px;
+  width: 100%;
+
+  background-color: #1d1d1d;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+}
+
+nav li{
+  font-size: 10pt;
+  list-style: none;
+  margin: auto 2rem;
+  padding: .5rem;
+
+  display: flex;
+}
+
+nav li:hover{
+  background-color: rgba(255, 255, 255, .3);
+  transition: all 500ms;
+}
+
+.create-info nav li p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  color: #fff;
+}
+
+nav a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.url-title{
+  margin-bottom: 1.5rem;
+  font-size: 14pt;
+  text-align: center;
+}
+
+nav a svg{
+  padding-top: .2rem;
+  margin-right: 2rem;
+}
+
+.icon img{
+  margin-right: 2rem;
+  height: 20px;
+  width: 20px;
+}
+
+.cake-resume .icon{
+  height: 20px;
+  width: 20px;
+  border: none;
+  border-radius: 99em;
+  background-color: #fff;
+  margin-right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cake-resume .icon p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 2px;
+  font-size: 18px;
+  color: #287e22;
+  font-weight: 700;
+  list-style: none !important;
+  text-decoration:none !important;
+}

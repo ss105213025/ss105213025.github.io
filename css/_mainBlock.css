@@ -1,0 +1,315 @@
+@media (min-width : 992px) {
+  .personal-info {
+    position: relative;
+    background-color: #f8fff6;
+    height: 120vh;
+    width: 100%;
+  }
+}
+
+
+
+@media (min-width : 768px){
+  .personal-info {
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+/* 主要內容區 */
+@media (min-width : 768px) {
+
+}
+
+@media (min-width : 992px) {
+  .content-block{
+    height: 100%;
+    width: 100%;
+  
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 800;
+  
+    display: flex;
+  }
+  
+  /* 左選單 */
+  .content-block .main-left-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 100%;
+    width: 50%;
+
+    margin-left: 2.5%;
+  }
+
+  /* 名片區 */
+  .main-left-block .photo{
+    margin-left: auto;
+    margin-right: auto;
+
+    border: none;
+    border-radius: .5rem;
+
+    height: 40%;
+    width: 90%;
+
+    background-color: #f6f6f6;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .photo .img-box {
+    height: 100%;
+    width: 50%;
+  }
+
+  .img-box img{
+    display: block;
+    border: none;
+    border-radius: 50%;
+
+    margin: 19% 19% auto;
+    height: 58%;
+    width: 60%;
+
+    box-shadow: 0 0 .5em .04em rgba(0, 0, 0, .1);
+  }
+
+  .photo .title-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 50%;
+
+    overflow-x: hidden;
+    margin-right: 10%;
+  }
+
+  .photo .title-content p:first-child{
+    display: block;
+    font-size: 16pt;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .photo .title-content p:last-child{
+    display: block;
+    font-size: 10pt;
+    font-weight: 300;
+    color: #8d8d8d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .photo .title-content hr{
+    background-color: #cecece;
+    
+    border-radius: 1px;
+    border: none;
+    
+
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    height: 1.2px;
+    width: 90%;
+  }
+
+  /* 學經歷 */
+  .main-left-block .personal-data{
+    margin-left: auto;
+    margin-right: auto;
+
+    border: none;
+    border-radius: .5rem;
+
+    height: 40%;
+    width: 90%;
+
+    background-color: #f6f6f6;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .personal-data .box{
+    width: 75%;
+    height: 80%;
+    display: flex;
+  }
+
+  .personal-data .title-name{
+    margin-top: 3%;
+    font-size: 16pt;
+  }
+
+  .box .height-line{
+    background-color: #404249;
+
+    width: 3px;
+    height: 85%;
+
+    border: none;
+    border-radius: .1rem;
+
+    margin-right: 0;
+    margin-top: 5%;
+
+    position: relative;
+  }
+
+  .circle:first-child img{
+    position: absolute;
+    z-index: 1000;
+    top: -5%;
+    left: -9px;
+
+    height: 21px;
+    width: 21px;
+  }
+
+  .circle:nth-child(2) img{
+    position: absolute;
+    z-index: 1000;
+    top: 48%;
+    left: -9px;
+
+    height: 21px;
+    width: 21px;
+  }
+
+  .circle:nth-child(3) img{
+    position: absolute;
+    z-index: 1000;
+    bottom: -1%;
+    left: -9px;
+
+    height: 21px;
+    width: 21px;
+  }
+
+  .box .data-text{
+    position: relative;
+    width: 90%;
+    height: 100%;
+
+    font-size: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #717379;
+  }
+
+  .data-text p:first-child{
+    position: absolute;
+    left: 14%;
+    top: 6.5%;
+  }
+  .data-text p:nth-child(2){
+    position: absolute;
+    left: 14%;
+    top: 48%;
+  }
+  .data-text p:last-child{
+    position: absolute;
+    left: 14%;
+    bottom: 9%;
+  }
+
+  
+  
+  /* 右選單 */
+  .content-block .main-right-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 50%;
+    margin-right: 2.5%;
+  }
+
+  .main-right-block .coding-reasons{
+    height: 90%;
+    width: 90%;
+
+    border: none;
+    border-radius: .5rem;
+
+    background-color: #f6f6f6;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .coding-reasons .frontend-framework {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .frontend-framework img{
+    margin-left: 15%;
+    margin-right: 20% ;
+  }
+
+  .frontend-framework .text-block p{
+    margin-bottom: 1rem;
+  }
+
+  .frontend-framework:first-child .skill-scales .scales{
+    height: 3px;
+    width: 100px;
+    border: none;
+    border-radius: .5rem;
+
+    background-color: #2471c9;
+
+  }
+
+  .frontend-framework .skill-scales .scales{
+    height: 3px;
+    width: 60px;
+    border: none;
+    border-radius: .5rem;
+
+    background-color: #67c9af;
+
+    
+  }
+
+  .frontend-framework:last-child .skill-scales .scales{
+    height: 3px;
+    width: 160px;
+    border: none;
+    border-radius: .5rem;
+
+    background-color: #dbce58;
+  }
+
+  .frontend-framework:hover{
+
+  }
+}
+
+
+
